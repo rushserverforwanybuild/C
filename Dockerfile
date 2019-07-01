@@ -7,7 +7,7 @@ RUN su - steam
 RUN wget https://pse.is/E8WRB
 RUN mv E8WRB Rushserver.zip
 RUN unzip Rushserver.zip
-RUN cd /home/steam/Steam/RushDeployment
+RUN cd Steam/RushDeployment
 RUN chmod u+x startrust.sh
 CMD sh startrust.sh
 
